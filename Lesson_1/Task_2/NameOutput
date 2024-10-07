@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace NameOutput;
-
 int main()
 {
     cout << "Daniil \nChehun" << endl;

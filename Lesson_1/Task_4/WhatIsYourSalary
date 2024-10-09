@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int salary;
+
+    cout << "What is your salary?:  ";
+    cin >> salary;
+    if (cin.fail()) {
+        cout << "Its a not your salary" << endl;
+        return 0;
+    }
+    string message[]{"Work harder, like a Hindu", "Well done!", "You are a millionaire!",};
+    int index = (salary > 999) ? 1 : 0;
+    index = (salary >999999) ? 2 : index;
+    cout << message[index] << endl ;
+    return 0;
+
+
+}

@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 **/build*
 **/*.pro.user
+=======
+**/build*
+**/*.pro.user
+>>>>>>> 464a6ac1fbb84e9fb05258e00c9d8531b261a0cc

@@ -6,7 +6,7 @@ int main()
 
     int numbers[5];
     int maxValue = 0;
-    cout << ' ' << endl;
+
     for (int i = 0; i < 5; ++i) {
         cout << "Enter " << i + 1 << " value: ";
         cin >> numbers[i];

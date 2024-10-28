@@ -25,7 +25,7 @@ int main() {
         }
 
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr2
         for (int i = 1; i <= height; ++i) {
@@ -38,7 +38,7 @@ int main() {
             cout << endl;
         }
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr3
         for (int i = 1; i <= height; i++) {
@@ -58,7 +58,7 @@ int main() {
         }
 
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr4
         for (int i = 0; i < topIndent; i++) {
@@ -79,7 +79,7 @@ int main() {
         }
 
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr5
         for (int i = 0; i < topIndent; ++i) {
@@ -97,7 +97,7 @@ int main() {
         }
 
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr6
         for (int i = 0; i < topIndent; i++) {
@@ -115,7 +115,7 @@ int main() {
         }
 
         sleep(1);
-        system("cls");
+        system("clear");
 
         //tr7
         for (int i = 0; i < topIndent; ++i) {
@@ -128,7 +128,7 @@ int main() {
             cout << endl;
         }
         sleep(1);
-        system("cls");
+        system("clear");
         //tr8
         for (int i = 1; i <= height; ++i) {
             for (int j = 1; j <= i; ++j) {

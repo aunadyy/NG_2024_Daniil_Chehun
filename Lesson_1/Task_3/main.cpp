@@ -10,22 +10,26 @@ int main() {
         cout << "Enter the task in the format : firstNum *action* secondNum:";
         cin>>firstnum>>action>>secondnum;
 
+        int result;
         switch(action) {
+
         case '*':
-            cout<<"Your result :"<<firstnum*secondnum << "\n";
+            result = firstnum*secondnum;
             break;
         case '-':
-            cout<<"Your result :"<<firstnum-secondnum << "\n";
+            result = firstnum-secondnum;
             break;
         case '+':
-            cout<<"Your result :"<<firstnum+secondnum << "\n";
+            result = firstnum+secondnum;
             break;
         case '/':
-            cout<<"Your result :"<<firstnum/secondnum << "\n";
+            result = firstnum/secondnum;
             break;
         default:
             return 0;
         }
+
+        cout<<"Your result :"<< result << "\n";
 
 
     }

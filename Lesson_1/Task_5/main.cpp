@@ -8,24 +8,24 @@ int main() {
     cout << "Enter the height of elochka : ";
     cin >> height;
 
-    for (int i = 1; i <= height + 1; ++i) {
+    for (int StartingValue = 1; StartingValue <= height + 1; ++StartingValue) {
 
-        if(i - height == 1){
+        if(StartingValue - height == 1){
 
-            i  = 1;
-            for (int j = 1; j <= height - i; ++j) {
+            StartingValue  = 1;
+            for (int RegulatingValue = 1; RegulatingValue <= height - StartingValue; ++RegulatingValue) {
                 cout << " ";
             }
-            for (int j = 1; j <= 2 * i - 1; ++j) {
+            for (int RegulatingValue = 1; RegulatingValue <= 2 * StartingValue - 1; ++RegulatingValue) {
                 cout << "*";
             }
             break;
         }
 
-        for (int j = 1; j <= height - i; ++j) {
+        for (int RegulatingValue = 1; RegulatingValue <= height - StartingValue; ++RegulatingValue) {
             cout << " ";
         }
-        for (int j = 1; j <= 2 * i - 1; ++j) {
+        for (int RegulatingValue = 1; RegulatingValue <= 2 * StartingValue - 1; ++RegulatingValue) {
             cout << "*";
         }
 

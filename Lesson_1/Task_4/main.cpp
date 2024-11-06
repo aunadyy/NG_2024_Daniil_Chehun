@@ -1,29 +1,23 @@
 #include <iostream>
 using namespace std;
-int main(){
+
+int main() {
     int salary;
 
-    cout << "What is your salary?:  ";
+    cout << "What is your salary?: ";
     cin >> salary;
-    if(salary < 1000){
-        cout<<"Work harder, like a Hindu";
+
+    if (salary < 1000) {
+        cout << "Work harder, like a Hindu!" << endl;
     }
-    else if(salary > 1000){
-        cout<<"Well done!";
+    if (salary > 1000) {
+        if (salary < 1000000) {
+            cout << "Well done!" << endl;
+        }
     }
-    else if(salary == 1000){
-        return 0;
-    }
-    else if(salary < 1000000){
-        cout<<"Well done!";
-    }
-    else if(salary > 1000000){
-        cout<<"You are millioner!";
-    }
-    else if(salary == 1000000){
-        return 0;
+    if (salary > 1000000) {
+        cout << "You are a millionaire!" << endl;
     }
 
-
-
+    return 0;
 }
